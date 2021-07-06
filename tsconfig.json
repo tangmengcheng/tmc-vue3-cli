@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "strict": true,
+    "sourceMap": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/typings"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
