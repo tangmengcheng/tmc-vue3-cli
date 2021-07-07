@@ -1,5 +1,6 @@
 import { Command } from 'commander'
 import create from './actions/create'
+import childCommand from './childCommand'
 
 // <>表示必填，参数的<>不需要必填；长参数放在所有option的最后面
 // npx ts-node src/index.ts -h
@@ -17,6 +18,10 @@ program
     .option('-i --install', '是否自动安装依赖', false)
     .option('-pt --pkg-tool [value]', 'npm or yarn?')
     .action(create)
+
+// 上面是主命令，下面是子命令
+program.addCommand(childCommand(Command))
+
 // 帮助信息
 program.addHelpText('after', `
     Example create a project:
