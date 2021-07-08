@@ -11,3 +11,7 @@ yarn add execa -S
 yarn add fs-extra -S
 
 <!-- 是否要启动服务，是否要启动浏览器 -->
+
+npm config set registry http://registry.npmjs.org
+npm config get registry
+npm s tmc-vue3-cli
