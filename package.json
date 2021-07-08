@@ -5,6 +5,9 @@
   "repository": "https://github.com/tangmengcheng/tmc-vue3-cli.git",
   "author": "tangmengcheng <1018663766@qq.com>",
   "license": "MIT",
+  "bin": {
+    "tmc": "index.js"
+  },
   "scripts": {
     "build": "gulp"
   },
