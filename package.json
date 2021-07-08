@@ -5,6 +5,9 @@
   "repository": "https://github.com/tangmengcheng/tmc-vue3-cli.git",
   "author": "tangmengcheng <1018663766@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "gulp"
+  },
   "dependencies": {
     "art-template": "^4.13.2",
     "chalk": "^4.1.1",
@@ -18,9 +21,13 @@
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.12",
+    "@types/gulp": "^4.0.9",
     "@types/inquirer": "^7.3.3",
     "@types/lodash": "^4.14.170",
     "@types/node": "^16.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
     "lodash": "^4.17.21",
     "ts-node": "^10.0.0",
     "tslib": "^2.3.0",
