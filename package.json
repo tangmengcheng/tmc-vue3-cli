@@ -8,6 +8,7 @@
   "bin": {
     "tmc": "index.js"
   },
+  "files": ["dist", "src", "package.json", "index.js", "templates", "README.md"],
   "scripts": {
     "build": "gulp"
   },
